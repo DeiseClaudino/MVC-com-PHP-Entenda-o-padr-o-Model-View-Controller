@@ -31,6 +31,7 @@ class ComposerStaticInit57436b1d838d9fd2b7b684394d8f4db1
         ),
         'P' => 
         array (
+            'Psr\\Http\\Server\\' => 16,
             'Psr\\Http\\Message\\' => 17,
             'Psr\\Container\\' => 14,
             'PackageVersions\\' => 16,
@@ -100,6 +101,10 @@ class ComposerStaticInit57436b1d838d9fd2b7b684394d8f4db1
         'Symfony\\Component\\Console\\' => 
         array (
             0 => __DIR__ . '/..' . '/symfony/console',
+        ),
+        'Psr\\Http\\Server\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/psr/http-server-handler/src',
         ),
         'Psr\\Http\\Message\\' => 
         array (
