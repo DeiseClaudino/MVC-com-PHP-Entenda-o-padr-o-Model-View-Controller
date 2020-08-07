@@ -36,6 +36,10 @@ final class Versions
   'nyholm/psr7' => '1.3.0@c17f4f73985f62054a331cbc4ffdf9868c4ef256',
   'nyholm/psr7-server' => '1.0.0@862529918766fb3825116d39e96feabf1e4bee4e',
   'ocramius/package-versions' => '1.5.1@1d32342b8c1eb27353c8887c366147b4c2da673c',
+  'opis/closure' => '3.5.5@dec9fc5ecfca93f45cd6121f8e6f14457dff372c',
+  'php-di/invoker' => '2.1.0@6a6f8f276d2680e77d06294b9fd67b4881b1f82d',
+  'php-di/php-di' => '6.2.1@6875fe557c244b3830862c072c7719ca4ac2efe4',
+  'php-di/phpdoc-reader' => '2.1.1@15678f7451c020226807f520efb867ad26fbbfcf',
   'php-http/message-factory' => 'v1.0.2@a478cb11f66a6ac48d8954216cfed9aa06a501a1',
   'psr/container' => '1.0.0@b7ce3b176482dbbc1245ebf52b181af44c2cf55f',
   'psr/http-factory' => '1.0.1@12ac7fcd07e5b077433f5f2bee95b3a771bf61be',
@@ -50,7 +54,7 @@ final class Versions
   'symfony/polyfill-php80' => 'v1.18.1@d87d5766cbf48d72388a9f6b85f280c8ad51f981',
   'symfony/service-contracts' => 'v2.1.3@58c7475e5457c5492c26cc740cc0ad7464be9442',
   'symfony/string' => 'v5.1.3@f629ba9b611c76224feb21fe2bcbf0b6f992300b',
-  '__root__' => 'dev-master@05502508b16ad43ccec3638f0ad48c01d62da580',
+  '__root__' => 'dev-master@7843d1e6f1dde97fdee63819a58b13d037db8e95',
 );
 
     private function __construct()
