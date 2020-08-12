@@ -21,7 +21,7 @@ class Exclusao implements RequestHandlerInterface
     public function handle(ServerRequestInterface $request): ResponseInterface
     {
         $queryString  = $request->getQueryParams();
-        $idEntidade   = $queryString['id'];
+        $idEntidade   = filter_var($queryString['id'], FILTER_VALIDATE_INT);
         $entidade     = $this->entityManager->getReference(Curso::class, $idEntidade);
         $this->entityManager->remove($entidade);
         $this->entityManager->flush();
